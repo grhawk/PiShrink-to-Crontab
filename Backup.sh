@@ -22,7 +22,7 @@ startServices() {
 }
 
 # Settings
-BACKUP_PATH="/media/Backup/$(get_codename)/${HOSTNAME}"
+BACKUP_PATH="/media/Backup/${HOSTNAME}"
 BACKUP_ANTAL="3"
 BACKUP_DATO=$(date +%d-%m-%Y)
 ARCHITECTURE=$(getconf LONG_BIT)
